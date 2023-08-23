@@ -52,8 +52,8 @@ const Navbar = () => {
     const navigate = useNavigate()
     const logout = useLogout()
 
-    let logoutUser = async () => {
-        await logout()
+    let logoutUser =  () => {
+        //await logout()
         navigate('/')
     }
 

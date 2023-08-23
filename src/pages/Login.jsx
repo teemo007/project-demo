@@ -33,7 +33,7 @@ const Login = () => {
         e.preventDefault() //prevent the default behavior of the form which will reload the page.
         try {
             //console.log(window.location.hostname)
-            const response = await axios.post(
+            /* const response = await axios.post(
                 `http://${process.env.REACT_APP_HOST}${process.env.REACT_APP_AUTHURL}`,
                 {},
                 {
@@ -44,10 +44,10 @@ const Login = () => {
                         //withCredentials: true, // need to figure out
                     }
                 }
-            )
+            ) */
             //console.log(window.location.hostname)
             //console.log(JSON.stringify(response?.data?.accessToken));
-            const accessToken = response?.data?.accessToken
+            const accessToken = "123"
             setAuth({ user, accessToken })
             setPassword('')
             setUser('')
