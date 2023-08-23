@@ -1,0 +1,34 @@
+{
+    "backgroundColor": "rgb(55,65,81)",
+    "legend": {
+        "textStyle": {
+          "color": "rgb(229, 231, 235)"
+        }
+      },
+    "title": {
+        "textStyle": {
+            "color": "rgb(229, 231, 235)"
+        }
+    },
+    "line": {
+        "label": {
+            "color": "rgb(229, 231, 235)"
+        },
+        "smooth": true,
+        "lineStyle": {
+            "width": "4"
+        },
+        "showSymbol": "circle"
+    },
+    "axisLabel": { "color": "rgb(229, 231, 235)" },
+    "toolbox": {
+        "iconStyle": {
+            "borderColor": "rgb(229, 231, 235)"
+        }
+    },
+    "emphasis": {
+        "iconStyle": {
+            "borderColor": "#666666"
+        }
+    }
+}
