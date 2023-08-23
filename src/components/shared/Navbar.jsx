@@ -9,7 +9,7 @@ import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNone
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined'
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined' */
 import React, { useEffect, useState } from 'react'
-import logo2 from '../../assets/logo1.png'
+import tom from '../../assets/tom.png'
 import useAuth from '../../hooks/useAuth'
 import { useNavigate } from 'react-router-dom'
 import useLogout from '../../hooks/useLogout'
@@ -97,7 +97,7 @@ const Navbar = () => {
                     <div className="flex items-center mr-1 ">
                         <img
                             //src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                            src={logo2}
+                            src={tom}
                             alt=""
                             className="w-10 h-10 rounded-full "
                         />
